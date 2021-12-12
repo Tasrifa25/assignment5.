@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	width: 100%;
+	border-bottom: 2px solid;
+	border-color: #f3f3f3;
+	    margin-top: 20px;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+    padding-left: 30px;
+    line-height: 40px;
+}
+
+.menu ul li a{
+	font-family: open sans;
+	font-size: 14px;
+	color: black;
+}
+
+.logo img{
+	    padding-bottom: 10px;
+}
+
+.banner{
+	width: 100%;
+	margin: 42px 0px;
+	height: 100vh;
+}
+
+.banner-c h1{
+	text-align: center;
+	font-family: open sans;
+	font-size: 52px;
+    font-weight: 700;
+}
+
+.line1{
+	color: #0f2656;
+}
+
+.line2{
+	color: #008aff;
+	 padding-bottom: 15px;
+}
+
+.banner-c p{
+	font-size: 16px;
+	font-family: open sans;
+	text-align: center;
+	padding: 0px 145px;
+}
+
+.banner-c img{
+    padding: 18px 293px;
+}
+
+.banner2{
+	width: 100%;
+	margin-bottom: ;
+}
+
+.ban-nav{
+	display: flex;
+	justify-content: center;
+	padding: 0px 144px 132px;
+}
+
+.banner2-left{
+	margin-right: 8px;
+}
+
+.banner2-right{
+	margin-left: 8px;
+}
+
+.banner2-left h2{
+	flex-basis: 50%;
+    color: rgb(241, 86, 102);
+	font-family: open sans ;
+	font-size: 48px;
+	text-align: right;
+}
+
+.banner2-left p{
+	font-family: open sans ;
+	font-size: 14px;
+	text-align: right;
+}
+
+.banner2-right h1{
+	flex-basis: 50%;
+	color: #0f2656;
+	font-family: open sans ;
+	font-size: 48px;
+	text-align: left;
+}
+
+.g-section{
+	width: 100%;
+	margin-bottom: 70px;
+}
+
+.g-content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.g1{
+	flex-basis: 23%;
+    margin: 16px;
+    border-radius: 4px;
+    padding: 4px 4px;
+}
+
+.pink{
+    width: 90%;    background: rgb(253, 235, 237);
+}
+
+.blue{
+    width: 90%;
+    background: rgb(235, 249, 244);
+}
+
+.bpink{
+    width: 90%;
+    background: rgb(255, 247, 232);
+}
+
+
+.g1 img{
+	margin-bottom: 42px;
+}
+
+.g1 h3{
+	font-family: open sans;
+	font-size: 26px;
+	text-align: center;
+}
+
+.g1 p{
+    font-size: 18px;
+    line-height: 24px;
+    padding: 30px;
+}
+
+footer{
+    width: 100%;
+    background: #008aff;
+    padding: 24px 0px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+footer p{
+	font-size: 12px;
+	color: white;
+	font-family: open sans;
+}
+
+footer p span{
+	font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-family: open sans;
+}
